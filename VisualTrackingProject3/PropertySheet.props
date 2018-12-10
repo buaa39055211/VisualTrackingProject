@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ImportGroup Label="PropertySheets" />
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_PropertySheetDisplayName>Opencv_DebugX64</_PropertySheetDisplayName>
+    <IncludePath>C:\Users\YUXD\Desktop\opencv\build\include\opencv2;C:\Users\YUXD\Desktop\opencv\build\include\opencv;C:\Users\YUXD\Desktop\opencv\build\include;$(IncludePath)</IncludePath>
+    <LibraryPath>C:\Users\YUXD\Desktop\opencv\build\x64\vc14\lib;C:\Users\YUXD\Desktop\opencv\build\x64\vc15\lib;$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <ItemDefinitionGroup>
+    <Link>
+      <AdditionalDependencies>opencv_world341d.lib;opencv_ml341d.lib;opencv_calib3d341d.lib;opencv_contrib341d.lib;opencv_core341d.lib;opencv_features2d341d.lib;opencv_flann341d.lib;opencv_gpu341d.lib;opencv_highgui341d.lib;opencv_imgproc341d.lib;opencv_legacy341d.lib;opencv_objdetect341d.lib;opencv_ts341d.lib;opencv_video341d.lib;opencv_nonfree341d.lib;opencv_ocl341d.lib;opencv_photo341d.lib;opencv_stitching341d.lib;opencv_superres341d.lib;opencv_videostab341d.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalLibraryDirectories>C:\Users\YUXD\Desktop\opencv\build\x64\vc15\lib;C:\Users\YUXD\Desktop\opencv\build\x64\vc14\lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+    </Link>
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\YUXD\Desktop\opencv\build\include\opencv2;C:\Users\YUXD\Desktop\opencv\build\include\opencv;C:\Users\YUXD\Desktop\opencv\build\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+  </ItemDefinitionGroup>
+  <ItemGroup />
+</Project>
